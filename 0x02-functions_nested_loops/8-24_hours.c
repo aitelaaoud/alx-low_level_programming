@@ -6,13 +6,15 @@
  */
 void jack_bauer(void)
 {
-	int hr, min;
+	int hr;
 
 	hr = 0;
 
 	while (hr <= 23)
 	{
-		int min = 0;
+		int min;
+
+		min = 0;
 
 		while (min <= 59)
 		{
