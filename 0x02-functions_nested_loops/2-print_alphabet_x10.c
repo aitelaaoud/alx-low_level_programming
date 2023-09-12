@@ -6,7 +6,6 @@
 void print_alphabet_x10(void)
 {
 	int line = 0;
-	char ch;
 
 	while (line <= 9)
 	{
