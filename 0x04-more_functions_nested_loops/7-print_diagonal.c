@@ -7,12 +7,11 @@
 void print_diagonal(int n)
 {
 	int len, space;
-
 	if (n > 0)
 	{
-		for (len = 0; len < n; len++)
+		for (len = 0; len < n; len++) /*len is the number of diagonal*/
 		{
-			for (space = 0; space < len; space++)
+			for (space = 0; space < len; space++) /*space is the indentation for each diagonal line.*/
 				_putchar(' ');
 
 			_putchar('\\');
