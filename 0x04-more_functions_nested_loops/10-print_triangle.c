@@ -3,22 +3,19 @@
 /**
  * print_triangle - print triangle
  * @size:length of the triangle
- * @i: rows
- * @j; spaces
- * @k: #
  */
 
 void print_triangle(int size)
 {
-	int i, j, k;
+	int row, space, ch;
 
-	for (i = 1; i <= size; i++)
+	for (row = 1; row <= size; row++)
 	{
-		for (j = size; j > i; j--)
+		for (space = size; j > i; space--)
 		{
 			_putchar(' ');
 		}
-		for (k = 1; k <= i; k++)
+		for (ch = 1; ch <= i; ch++)
 		{
 			_putchar(35);
 		}
