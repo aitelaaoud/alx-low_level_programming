@@ -13,10 +13,9 @@ void print_numbers(void)
 	{
 		if (number != 50 && number != 52)
 		{
-			continue;
-		}
-		_putchar(number);
 
+			_putchar(number);
+		}
 
 		number++;
 	}
