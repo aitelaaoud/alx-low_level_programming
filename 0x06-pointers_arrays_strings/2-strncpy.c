@@ -22,8 +22,10 @@ char *_strncpy(char *dest, char *src, int n)
 
 	i = 0;
 	while (i < n && src[i] != '\0')
+	{
 		dest[i] = src[i];
 		i++;
+	}
 
 	/**
 	 * if the length of source is less than n
